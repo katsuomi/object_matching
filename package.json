@@ -1,0 +1,22 @@
+{
+  "name": "whether-object-match",
+  "version": "0.0.1",
+  "description": "return whether it matches in objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://katsuomi@github.com/katsuomi/whether-object-match.git"
+  },
+  "keywords": [
+    "whether-object-match"
+  ],
+  "author": "katsuomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katsuomi/whether-object-match/issues"
+  },
+  "homepage": "https://github.com/katsuomi/whether-object-match#readme"
+}
