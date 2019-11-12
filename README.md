@@ -1,3 +1,5 @@
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 ## What's "object_matching" ?
 You can compare two objects in JavaScript using this npm package.
 
