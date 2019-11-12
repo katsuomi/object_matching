@@ -13,7 +13,6 @@ console.log(object_match(b,c)) //false
 
 ## Building
 ```bash
-$ npm install object_matching@0.01
-
+$ npm install object_matching
 ```
 
