@@ -1,7 +1,7 @@
 {
   "private": false, 
   "name": "whether-object-match",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "return whether it matches in objects",
   "main": "./index.js",
   "scripts": {

@@ -24,4 +24,3 @@ function objectSort(object) {
 }
 
 module.exports = object_match
-module.exports = objectSort
