@@ -1,49 +1,29 @@
 function object_match(obj1,obj2){
-  // まずキーのみをソートする
-  var keys1 = Object.keys(obj1).sort();
-
-  // 返却する空のオブジェクトを作る
-  var map1 = {};
-
-  // ソート済みのキー順に返却用のオブジェクトに値を格納する
-  keys1.forEach(function(key){
-    var val1 = obj1[key];
-
-    // 中身がオブジェクトの場合は再帰呼び出しを行う
-    if(typeof val1 === "object"){
-        val1 = object_match(val1,0);
-    }
-
-    map1[key] = val1;
-  });
-
-    // まずキーのみをソートする
-  var keys2 = Object.keys(obj2).sort();
-
-  // 返却する空のオブジェクトを作る
-  var map2 = {};
-
-  // ソート済みのキー順に返却用のオブジェクトに値を格納する
-  keys2.forEach(function(key){
-    var val2 = obj2[key];
-
-    // 中身がオブジェクトの場合は再帰呼び出しを行う
-    if(typeof val2 === "object"){
-        val2 = object_match(0,val2);
-    }
-
-    map2[key] = val2;
-  });
-
-  if(JSON.stringify(map1) === JSON.stringify(map2)){
+  const obj1Sorted = objectSort(obj1)
+  const obj2Sorted = objectSort(obj2)
+  obj1Json = JSON.stringify(obj1Sorted)
+  obj2Lson = JSON.stringify(obj2Sorted)
+  if(obj1Json === obj2Lson){
+    console.log(true)
     return true
   }else{
+    console.log(false)
     return false
   }
+}
 
+function objectSort(object) {
+  var newObject = {};
+  var keyArray = [];
+  for (key in object) {
+    keyArray.push(key);
+  }
+  keyArray.sort()
+  for (var i = 0; i < keyArray.length; i++) {
+    newObject[keyArray[i]] = object[keyArray[i]];
+  }
+  return newObject;
 }
 
 module.exports = object_match
-
-
-
+module.exports = objectSort
