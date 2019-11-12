@@ -1,9 +1,13 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-## What's "object_matching" ?
-You can compare two objects in JavaScript using this npm package.
+# object_matching
 
-## Example
+## 💬 About
+
+You can easily compare two objects in JavaScript using this npm package.
+
+## 💁‍♂️ example
+
 ```bash
 var object_match = require("object_matching");
 const a = {foo: "poteto",bar: "apple" }
@@ -13,8 +17,7 @@ console.log(object_match(a,b)) //true
 console.log(object_match(b,c)) //false
 ```
 
-## Building
+## 🔰 install
 ```bash
 $ npm install object_matching
 ```
-
