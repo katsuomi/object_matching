@@ -4,10 +4,8 @@ function object_match(obj1,obj2){
   obj1Json = JSON.stringify(obj1Sorted)
   obj2Lson = JSON.stringify(obj2Sorted)
   if(obj1Json === obj2Lson){
-    console.log(true)
     return true
   }else{
-    console.log(false)
     return false
   }
 }
