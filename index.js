@@ -1,4 +1,4 @@
-function object_match(obj1,obj2){
+function objectMatch(obj1,obj2){
   const obj1Sorted = objectSort(obj1)
   const obj2Sorted = objectSort(obj2)
   obj1Json = JSON.stringify(obj1Sorted)
@@ -23,4 +23,4 @@ function objectSort(object) {
   return newObject;
 }
 
-module.exports = object_match
+module.exports = objectMatch
