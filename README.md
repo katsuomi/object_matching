@@ -1,5 +1,6 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![npm version](https://badge.fury.io/js/object_matching.svg)](https://badge.fury.io/js/object_matching)
+[![Build Status](https://travis-ci.org/katsuomi/object_matching.svg?branch=master)](https://travis-ci.org/katsuomi/object_matching)
 
 # object_matching
 
