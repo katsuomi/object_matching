@@ -6,7 +6,7 @@
 
 ## 💬 About
 
-You can easily compare two objects in JavaScript using this npm package.
+Using this npm package, You can compare two objects.
 
 ## 💁‍♂️ example
 
